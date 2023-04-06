@@ -107,5 +107,7 @@
       }
     }
   },
-  "defaultProject": "ng-service-worker"
+  "cli": {
+    "analytics": "5bc6896e-5929-4086-86ae-363625b1edbd"
+  }
 }
