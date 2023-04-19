@@ -2,6 +2,6 @@
 <input type="file" accept="application/pdf" (change)="onFileChnage($event)">
 
 <div style="width: 800px; height: 100vh">
-  <ng2-pdfjs-viewer #pdfViewerOnDemand [downloadFileName]="'myPdf.pdf'" [openFile]="false" [viewBookmark]="false"
-    [download]="true"></ng2-pdfjs-viewer>
+  <ng2-pdfjs-viewer #pdfViewerOnDemand [externalWindow]="true" [downloadFileName]="'myPdf.pdf'" [openFile]="false"
+    [viewBookmark]="false" [download]="true"></ng2-pdfjs-viewer>
 </div>
