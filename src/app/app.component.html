@@ -1,2 +1,7 @@
 <h1>{{ title }}</h1>
-<input type="file" active="application/pdf" (change)="onFileChnage($event)">
+<input type="file" accept="application/pdf" (change)="onFileChnage($event)">
+
+<div style="width: 800px; height: 100vh">
+  <ng2-pdfjs-viewer #pdfViewerOnDemand [downloadFileName]="'myPdf.pdf'" [openFile]="false" [viewBookmark]="false"
+    [download]="true"></ng2-pdfjs-viewer>
+</div>
